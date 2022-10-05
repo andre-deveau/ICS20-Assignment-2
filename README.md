@@ -1,4 +1,4 @@
-# ICS20-Template
+# ICS20-Assigment-2
 
 [![Mr Coxall's Super Linter](https://github.com/andre-deveau/ICS20-Assignment-2/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/andre-deveau/ICS20-Assignment-2/actions/)
 
