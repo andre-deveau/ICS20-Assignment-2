@@ -7,4 +7,4 @@
 /**
  * Do basic math.
  */
- function doMathClicked() {}
+function doMathClicked() {}
