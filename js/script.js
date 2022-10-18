@@ -6,14 +6,13 @@
 
 "use strict"
 /**
- * This function calculates area and perimeter of rectangle.
+ * Calculate perimeter of circle.
  */
 function calculate() {
   // input
   const radius = parseInt(document.getElementById("radius-of-circle").value)
 
-  // process
-  const radius = 2 * 3.14 * radius
+  document.getElementById("perimeter-of-circle").innerHTML = "<p>The Perimeter of the Circle is: " + 2 * 3.14 * radius + "cm" + "/p>"
 
   // output
   document.getElementById("perimeter-of-circle").innerHTML =
