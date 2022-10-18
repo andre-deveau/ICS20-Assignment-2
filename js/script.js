@@ -13,9 +13,9 @@ function calculate() {
   const radius = parseInt(document.getElementById("radius-of-circle").value)
 
   // process
-  const radius = (2 * 3.14 * radius)
+  const radius = 2 * 3.14 * radius
 
   // output
-  document.getElementById("perimeter-of-circle").innerHTML = "The Perimeter of the Circle is:" + radius + "!"
+  document.getElementById("perimeter-of-circle").innerHTML =
+    "The Perimeter of the Circle is:" + radius + "!"
 }
-
