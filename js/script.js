@@ -4,7 +4,18 @@
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
 
+"use strict"
 /**
- * Do basic math.
+ * This function calculates area and perimeter of rectangle.
  */
-function doMathClicked() {}
+function calculate() {
+  // input
+  const radius = parseInt(document.getElementById("radius-of-circle").value)
+
+  // process
+  const radius = (2 * 3.14 * radius)
+
+  // output
+  document.getElementById("perimeter-of-circle").innerHTML = "The Perimeter of the Circle is:" + radius + "!"
+}
+
