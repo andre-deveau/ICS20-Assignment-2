@@ -13,6 +13,6 @@ function calculate() {
   const radius = parseInt(document.getElementById("radius-of-circle").value)
 
   // output
-  document.getElementById("perimeter-of-circle").innerHTML = Math.PI
+  document.getElementById("perimeter-of-circle").innerHTML = 
   "<p>The Perimeter of the Circle is: " + 2 * Math.PI * radius + "cm" + ". </p>"
 }
