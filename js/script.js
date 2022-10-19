@@ -14,5 +14,5 @@ function calculate() {
 
   // output
   document.getElementById("perimeter-of-circle").innerHTML = Math.PI
-    "<p>The Perimeter of the Circle is: " + 2 * Math.PI * radius + "cm" + ". </p>"
+  "<p>The Perimeter of the Circle is: " + 2 * Math.PI * radius + "cm" + ". </p>"
 }
